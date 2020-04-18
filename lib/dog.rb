@@ -1,5 +1,5 @@
 class Dog
-def initialize(name, breed)
+def initialize(name, breed = "Mutt")
   @name = name
 end
 def name=(name)
@@ -13,7 +13,5 @@ def breed=(breed)
 end
 def breed
   @breed
-  if @breed = nil
-    puts "Mutt"
   end
 end
